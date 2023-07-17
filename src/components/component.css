@@ -1,0 +1,45 @@
+.component-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component-pasted-image {
+  width: 1221px;
+  height: 316px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/external/pastedimage-h29.svg");
+  background-position: center;
+}
+.component-pasted-image1 {
+  gap: 32px;
+  top: 0px;
+  left: 0px;
+  width: 686px;
+  height: 173px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component-pasted-image2 {
+  gap: 25px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 313px;
+  bottom: 0px;
+  height: 140px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
